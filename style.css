@@ -3,7 +3,10 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */ /* white */
+    background-color: #fffdd0; /* cream */
+    /* background-color: #f5f5dc; */ /* beige */
+    /* background-color: #fffff0; */ /* ivory */
     color: #333;
 }
 .container {
