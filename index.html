@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' https://cdnjs.cloudflare.com;"> -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Profile</title>
+    <title>Welcome to the profile page for Manas Mehrotra</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <div class="container">
+        <nav class="main-nav">
+            <a href="index.html" class="active">Home</a>
+            <a href="projects.html">Projects</a>
+        </nav>
         <h1>Manas Mehrotra</h1>
 
         <img src="ManasMehrotra Photograph.JPG" alt="Your Profile Picture" class="profile-img">
@@ -30,11 +36,36 @@
             </div>
         </div>
 
+        <div class="section project-intro">
+            <h2>Featured Projects</h2>
+            <div class="justified-text">
+                <p>
+                    As a Robotic Systems Engineer, I have executed several complex projects spanning **low-level control, AI model integration, and cloud-connected telemetry**. These works demonstrate my ability to bridge theoretical knowledge from RWTH Aachen with practical, robust software solutions.
+                </p>
+                <div style="text-align: center; margin-top: 20px;">
+                    <a href="projects.html" class="project-cta-button">
+                        <i class="fas fa-flask"></i> Explore Detailed Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div class="links">
-            <a href="URL_TO_YOUR_DIGITAL_PROFILE" target="_blank">Digital Profile</a>
-            <a href="https://in.linkedin.com/in/manas-mehrotra-" target="_blank">LinkedIn</a>
-            <a href="https://github.com/mechgguy" target="_blank">GitHub</a>
-            <a href="URL_TO_YOUR_RESUME.pdf" target="_blank">Resume</a>
+            <a href="https://rwth-aachen.sciebo.de/s/NsZme1k52RHbQFN" target="_blank">
+                <i class="fas fa-star-of-life"></i> Profile
+            </a>
+            <a href="https://in.linkedin.com/in/manas-mehrotra-" target="_blank">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/mechgguy" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://rwth-aachen.sciebo.de/s/L7NFR4c2bdY4qDL" target="_blank">
+                <i class="fas fa-file-alt"></i> Resume
+            </a>
+            <a href="https://rwth-aachen.sciebo.de/s/fnG38SRqyDTTNyK" target="_blank">
+                <i class="fas fa-file-alt"></i> Lebenslauf
+            </a>
         </div>
     </div>
 </body>

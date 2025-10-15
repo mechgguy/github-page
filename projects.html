@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas' Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="main-nav">
+            <a href="index.html">Home</a>
+            <a href="projects.html" class="active">Projects</a>
+        </nav>
+        <h1> Projects</h1>
+
+        <div class="section">
+            <p class="justified-text" style="margin-bottom: 30px;">
+                <!-- Below are selected projects focusing on my specialization in Robotic Systems Engineering, AI-driven control, and embedded software development. Each repository includes detailed documentation on implementation and results. -->
+            </p>
+
+            <div class="project-card">
+                <h3>Integrating Traffic Light Status for MPC Planner in ACDC Suite</h3>
+                <p>
+                    Developed the existing Model Predictive Control Planner incorporated by Automated and Connected Driving Challenges ACDC Research Project with C++, ROS to integrate traffic light status into the MPC planner. This involved modifying the planner to account for traffic light states, its position and its future states using SPAT and MAP messages from the traffic light recognition module.
+                    <!-- Developed a **ROS-based control stack** utilizing computer vision (YOLOv8) for object detection and a custom path planning algorithm. Focused on achieving robust, real-time decision-making in GPS-denied environments. -->
+                </p>
+                <a href="https://github.com/mechgguy/acdc" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i> Automated and Connected Driving Challenges
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Integrated Maintenance Solution for Fraunhofer ICNAP Hackathon</h3>
+                <ul class="project-list">
+                    <li>
+                        Developed Data Kraken and Data Stream to handle inputs from different sensors and protocols (OPC-UA, MQTT, REST API) and store them in a unified database.
+                    </li>
+                    <li>
+                        Processing of the resulting data for visualization and mathematical modeling using XML files.
+                    </li>
+                    <li>
+                        Exploration of Unity to integrate maintenance tasks with mixed reality.
+                    </li>
+                </ul>
+                <a href="https://github.com/mechgguy/icnap_oldmonks" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i> icnap_oldmonks
+                </a>
+            </div>
+
+            <div class="project-card">
+                <h3>Customer Experience Enhancement with Public Data and Generative AI</h3>
+                <p>
+                    Developed a web application to enhance user experience on GitHub issues using data corpus and LLMs. The application fetches relevant information from a pre-processed data corpus and uses LLMs to generate context-aware responses to user queries based on different user personalities.
+                </p>
+                <a href="https://github.com/mechgguy/eestech-hackathon" target="_blank" class="project-link">
+                    <i class="fab fa-github"></i> eestech-hackathon
+                </a>
+            </div>
+
+            </div>
+
+        <div class="links">
+            <a href="https://github.com/mechgguy" target="_blank">
+                <i class="fab fa-github"></i> See All Projects on GitHub
+            </a>
+        </div>
+    </div>
+</body>
+</html>
