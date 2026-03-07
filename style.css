@@ -173,3 +173,8 @@ ul li {
     /* Optional: Slightly reduce margin for a denser list */
     margin-bottom: 8px; 
 }
+
+.project-card p,
+.project-card ul li {
+    text-align: justify;
+}
