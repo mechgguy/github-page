@@ -16,49 +16,78 @@
         <h1> Projects</h1>
 
         <div class="section">
-            <p class="justified-text" style="margin-bottom: 30px;">
-                <!-- Below are selected projects focusing on my specialization in Robotic Systems Engineering, AI-driven control, and embedded software development. Each repository includes detailed documentation on implementation and results. -->
-            </p>
-
-            <div class="project-card">
-                <h3>Integrating Traffic Light Status for MPC Planner in ACDC Suite</h3>
-                <p>
-                    Developed the existing Model Predictive Control Planner incorporated by Automated and Connected Driving Challenges ACDC Research Project with C++, ROS to integrate traffic light status into the MPC planner. This involved modifying the planner to account for traffic light states, its position and its future states using SPAT and MAP messages from the traffic light recognition module.
-                    <!-- Developed a **ROS-based control stack** utilizing computer vision (YOLOv8) for object detection and a custom path planning algorithm. Focused on achieving robust, real-time decision-making in GPS-denied environments. -->
+            <div class="section">
+                <p class="justified-text" style="margin-bottom: 30px;">
+                    Selected projects focusing on AI-driven knowledge extraction, RAG pipelines, IoT and full-stack technical solutions.
                 </p>
-                <a href="https://github.com/mechgguy/acdc" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> Automated and Connected Driving Challenges
-                </a>
-            </div>
+    
+                <div class="project-card">
+                    <h3>Sepsis Global Attribute Atlas (Clinical NLP Hackathon)</h3>
+                    <p>
+                        Built a high-performance Streamlit dashboard to automate the extraction of clinical variables (Biomarkers, Severity Scores, Treatments) from unstructured medical literature. Implemented a <strong>metadata-aware parsing engine</strong> to ensure deep traceability back to exact page numbers and evidence context.
+                    </p>
+                    <ul class="project-list" style="margin-top: 10px;">
+                        <li>Engineered an <strong>Attribute Consensus Matrix</strong> and Network Relationship Graph to visualize variable co-occurrence across 30+ papers.</li>
+                        <li>Integrated <strong>Weaviate Vector Database</strong> via Docker Compose for robust document indexing and retrieval.</li>
+                        <li>Developed a "Consensus Cloud" visualization to identify high-importance variables for clinical benchmarking.</li>
+                    </ul>
+                    <a href="https://github.com/mechgguy/sepsis-efferon-hackathon" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Sepsis Global Attribute Atlas
+                    </a>
+                </div>
 
-            <div class="project-card">
-                <h3>Integrated Maintenance Solution for Fraunhofer ICNAP Hackathon</h3>
-                <ul class="project-list">
-                    <li>
-                        Developed Data Kraken and Data Stream to handle inputs from different sensors and protocols (OPC-UA, MQTT, REST API) and store them in a unified database.
-                    </li>
-                    <li>
-                        Processing of the resulting data for visualization and mathematical modeling using XML files.
-                    </li>
-                    <li>
-                        Exploration of Unity to integrate maintenance tasks with mixed reality.
-                    </li>
-                </ul>
-                <a href="https://github.com/mechgguy/icnap_oldmonks" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> icnap_oldmonks
-                </a>
-            </div>
-
-            <div class="project-card">
-                <h3>Customer Experience Enhancement with Public Data and Generative AI</h3>
-                <p>
-                    Developed a web application to enhance user experience on GitHub issues using data corpus and LLMs. The application fetches relevant information from a pre-processed data corpus and uses LLMs to generate context-aware responses to user queries based on different user personalities.
-                </p>
-                <a href="https://github.com/mechgguy/eestech-hackathon" target="_blank" class="project-link">
-                    <i class="fab fa-github"></i> eestech-hackathon
-                </a>
-            </div>
-
+                <div class="project-card">
+                    <h3>MineSight: 3D Conveyor Path Intelligence (AMT Hackathon)</h3>
+                    <p>
+                        Architected an interactive 3D layout editor for mine conveyor planning, bridging the gap between <strong>graph-theory simulations</strong> and spatial engineering. Developed a custom synchronization engine to align multi-strand conveyor paths with high-resolution digital terrain models.
+                    </p>
+                    <ul class="project-list" style="margin-top: 10px;">
+                        <li>Implemented a <strong>Terrain-Aware FIT Engine</strong> with automated Z-clearance logic to snap conveyor nodes to wireframe displacements while maintaining structural safety gaps.</li>
+                        <li>Engineered a <strong>unified data ingestion pipeline</strong> supporting NetworkX (Node-Link JSON), DXF (CAD), and XLSX/CSV for seamless engineering-to-visualization workflows.</li>
+                        <li>Developed a real-time <strong>3D/2D Dual-Viewport</strong> system using Three.js (React Three Fiber) to visualize belt tension, elevation profiles, and path safety warnings.</li>
+                    </ul>
+                    <a href="https://github.com/mechgguy/loop-graph" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> MineSight Implementation
+                    </a>
+                </div>
+    
+                <div class="project-card">
+                    <h3>Integrating Traffic Light Status for MPC Planner in ACDC Suite</h3>
+                    <p>
+                        Developed the existing Model Predictive Control Planner incorporated by Automated and Connected Driving Challenges ACDC Research Project with C++, ROS to integrate traffic light status into the MPC planner. This involved modifying the planner to account for traffic light states using SPAT and MAP messages.
+                    </p>
+                    <a href="https://github.com/mechgguy/acdc" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> Automated and Connected Driving Challenges
+                    </a>
+                </div>
+    
+                <div class="project-card">
+                    <h3>Integrated Maintenance Solution — Fraunhofer ICNAP Hackathon</h3>
+                    <p>
+                        Architected an end-to-end industrial IoT solution to bridge sensor telemetry with mixed reality maintenance tasks.
+                    </p>
+                    <ul class="project-list">
+                        <li>
+                            Developed "Data Kraken" and "Data Stream" to unify multi-protocol inputs (OPC-UA, MQTT, REST API).
+                        </li>
+                        <li>
+                            Explored <strong>Unity integration</strong> to overlay real-time sensor data onto Mixed Reality environments for technicians.
+                        </li>
+                    </ul>
+                    <a href="https://github.com/mechgguy/icnap_oldmonks" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> icnap_oldmonks
+                    </a>
+                </div>
+    
+                <div class="project-card">
+                    <h3>Customer Experience Enhancement with Generative AI</h3>
+                    <p>
+                        Developed a web application using LLMs and a custom data corpus to generate context-aware, personality-driven responses for GitHub issue management.
+                    </p>
+                    <a href="https://github.com/mechgguy/eestech-hackathon" target="_blank" class="project-link">
+                        <i class="fab fa-github"></i> eestech-hackathon
+                    </a>
+                </div>
             </div>
 
         <div class="links">
